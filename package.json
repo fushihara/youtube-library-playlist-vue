@@ -1,5 +1,5 @@
 {
-  "name": "tampermonkey-vue",
+  "name": "youtube-library-playlist-vue",
   "version": "1.0.0",
   "description": "",
   "main": "build-result/dev-lib-vue/vue-dummy.umd.js",
