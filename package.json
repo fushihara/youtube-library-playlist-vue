@@ -1,0 +1,29 @@
+{
+  "name": "tampermonkey-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build-result/dev-lib-vue/vue-dummy.umd.js",
+  "scripts": {
+    "build:dev-lib-vue": "vue-cli-service build --target app --mode development --formats umd --filename tampermonkey-vue --dest \"./build-result/dev-app-entry\"",
+    "build:dev-lib-vue-watch": "vue-cli-service build --target app --mode development --formats umd --filename tampermonkey-vue --dest \"./build-result/dev-app-entry\" --watch",
+    "build": "npm run build:dev-lib-vue",
+    "build-production": "vue-cli-service build --target app --mode production --formats umd --filename tampermonkey-vue --dest \"./build-result/dev-app-entry\"",
+    "build-watch": "npm run build:dev-lib-vue-watch"
+  },
+  "keywords": [],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@types/vue": "^2.0.0",
+    "webpack-cli": "^3.3.5"
+  },
+  "devDependencies": {
+    "@types/dateformat": "^3.0.0",
+    "@vue/cli-plugin-typescript": "^4.1.2",
+    "@vue/cli-service": "^4.1.2",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "typescript": "^3.7.5",
+    "vue": "^2.6.10",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
