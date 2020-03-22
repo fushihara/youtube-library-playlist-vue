@@ -21,6 +21,7 @@
       <label>
         <input type="checkbox" v-model="enableWrapMode" />横並び表示
       </label>
+      <a href="//www.youtube.com/view_all_playlists">プレイリスト一覧</a>
     </div>
     <ul class="list" v-bind:class="[enableWrapMode?'':'no-wrap']">
       <li
@@ -75,6 +76,7 @@
       <label>
         <input type="checkbox" v-model="enableWrapMode" />横並び表示
       </label>
+      <a href="//www.youtube.com/view_all_playlists">プレイリスト一覧</a>
     </div>
   </div>
 </template>
