@@ -1,6 +1,6 @@
 <template>
   <div class="root">
-    <div>
+    <div class="control-buttons">
       <button v-on:click="clickShowMoreButton" v-bind:disabled="enableShowMoreButton==false">全部表示</button>
       <button
         v-on:click="changeFilter('all')"
@@ -54,7 +54,7 @@
         </ul>
       </li>
     </ul>
-    <div>
+    <div class="control-buttons">
       <button v-on:click="clickShowMoreButton" v-bind:disabled="enableShowMoreButton==false">全部表示</button>
       <button
         v-on:click="changeFilter('all')"
@@ -225,6 +225,9 @@ export default Vue.extend({
 <style lang="scss" scoped>
 * {
   box-sizing: border-box;
+}
+.control-buttons{
+  background-color:white;
 }
 .list {
   display: flex;
