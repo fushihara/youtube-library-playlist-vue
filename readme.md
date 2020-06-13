@@ -1,3 +1,5 @@
+build-productionでないと、クラスのdata-の値が他のvueコンポーネントの拡張と重複するので注意
+
 # youtubeのライブラリ/再生リスト の表示を調整
 
 ![](https://raw.githubusercontent.com/fushihara/youtube-library-playlist-vue/fe903cbaef4566d5151498db489b1bbae868682e/doc/imgTemp-2020-01-26-02-27-55.png)
