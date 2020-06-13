@@ -4,17 +4,14 @@
       <button v-on:click="clickShowMoreButton" v-bind:disabled="enableShowMoreButton==false">全部表示</button>
       <button
         v-on:click="changeFilter('all')"
-        v-bind:disabled="filterType=='all'"
         v-bind:style="{opacity:(filterType=='all'?1.0:0.3)}"
       >全て表示</button>
       <button
         v-on:click="changeFilter('my')"
-        v-bind:disabled="filterType=='my'"
         v-bind:style="{opacity:(filterType=='my'?1.0:0.3)}"
       >自分のみ表示</button>
       <button
         v-on:click="changeFilter('other')"
-        v-bind:disabled="filterType=='other'"
         v-bind:style="{opacity:(filterType=='other'?1.0:0.3)}"
       >他人のみ表示</button>
       <span>プレイリスト {{countMemo}}</span>
