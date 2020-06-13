@@ -237,7 +237,7 @@ export default Vue.extend({
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 558px;
+  height: 1007px;
   overflow-x: scroll;
   width: 100%;
   &.no-wrap {
