@@ -40,7 +40,7 @@
             /
             <a
               class="link"
-              v-bind:href="`https://www.youtube.com/playlist?list=${data.playlistId}&advanced_settings=1&disable_polymer=1`"
+              v-bind:href="`https://www.youtube.com/playlist?list=${data.playlistId}&disable_polymer=1`"
             >メモ付き詳細</a>
             /
             <a
